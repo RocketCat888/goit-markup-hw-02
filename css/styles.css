@@ -48,12 +48,13 @@ body {
     color: #404bbf;
 }
 .page-logo {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 .page-text-second {
   font-weight: 700;
@@ -83,9 +84,29 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-background-color: #4D5AE5
+background-color: #4D5AE5;
     
 }
 .page-section-name {
-color: #fff;
+color: #ffffff;
 }
+.page-section-name:hover {
+    background-color: #404BBF;
+}
+.page-section-name:focus {
+    background-color: #404BBF;
+}
+.section-benefits {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    }
+    .section-benefits-p {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+    }

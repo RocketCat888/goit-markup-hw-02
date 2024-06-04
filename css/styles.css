@@ -28,7 +28,7 @@ body {
   letter-spacing: 0.02em;
   color: #404bbf;
 }
-.menu-link:active {
+.menu-link:focus {
     color: #404bbf;
 }
 .contact-list-item {
@@ -67,4 +67,28 @@ body {
 }
 .contact {
     font-style: normal;
+}
+.page-section {
+    background-color: #2e2f42;
+}
+.page-section-title {
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07143;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
+}
+.page-section-button {
+    background-color: #4D5AE5
+    
+}
+.page-section-name {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
 }

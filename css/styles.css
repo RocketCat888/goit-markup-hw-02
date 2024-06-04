@@ -31,18 +31,21 @@ body {
 .menu-link:active {
     color: #404bbf;
 }
-.contact-list {
+.contact-list-item {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.contact-list:hover {
+.contact-list-item:hover {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #404bbf;
+}
+.contact-list-item:focus {
+    color: #404bbf;
 }
 .page-logo {
   font-family: "Raleway", sans-serif;
@@ -61,4 +64,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+}
+.contact {
+    font-style: normal;
 }

@@ -51,7 +51,7 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -59,7 +59,7 @@ body {
 .page-text-second {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
@@ -104,6 +104,35 @@ color: #ffffff;
     color: #2e2f42;
     }
     .section-benefits-p {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+    }
+    .section-team {
+        background-color: #f4f4fd;
+    }
+    .section-team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
+color: #2e2f42;
+    }
+    .section-team-list {
+        background-color: #ffffff;
+    }
+    .section-team-member {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+    }
+    .section-team-profession {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;

@@ -76,16 +76,21 @@ font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
-color: #fff;
+color: #ffffff;
 }
 .page-section-button {
-
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 background-color: #4D5AE5;
-    
+color: #ffffff;  
+}
+.page-section-button;hover {
+    background-color: #404BBF;
+}
+.page-section-button:focus {
+    background-color: #404BBF;
 }
 .page-section-name {
 color: #ffffff;

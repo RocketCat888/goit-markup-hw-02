@@ -46,7 +46,7 @@ body {
 }
 .menu-link:hover,
 .menu-link:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .contact-link {
   font-family: "Roboto", sans-serif;
@@ -56,11 +56,9 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.contact-link:hover {
-  color: #404bbf;
-}
+.contact-link:hover,
 .contact-list:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .contact {
   font-style: normal;
@@ -72,7 +70,6 @@ body {
   background-color: #2e2f42;
 }
 .page-section-title {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -81,10 +78,6 @@ body {
   color: #ffffff;
 }
 .page-section-button {
-    background: #4d5ae5;
-}
-.button-title {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -92,9 +85,14 @@ body {
   background: #4d5ae5;
   color: #fff;
 }
-.button-title:hover {
+.page-section-button:hover,
+.page-section-button:focus {
   background: #404bbf;
 }
+.button-title {
+  color: #ffffff;
+}
+.button-title:hover,
 .button-title:focus {
   background: #404bbf;
 }

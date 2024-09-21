@@ -57,7 +57,7 @@ body {
   color: #434455;
 }
 .contact-link:hover,
-.contact-list:focus {
+.contact-link:focus {
   color: #404bbf;
 }
 .contact {

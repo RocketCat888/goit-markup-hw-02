@@ -11,7 +11,9 @@ button {
   cursor: pointer;
 }
 body {
-  background: #fff;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background: #ffffff;
 }
 /* ===/COMMON STYLES=== */
 

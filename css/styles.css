@@ -46,7 +46,7 @@ body {
 }
 .menu-link:hover,
 .menu-link:focus {
-  background-color: #404bbf;
+  color: #404bbf;
 }
 .contact-link {
   font-family: "Roboto", sans-serif;
@@ -58,7 +58,7 @@ body {
 }
 .contact-link:hover,
 .contact-list:focus {
-  background-color: #404bbf;
+  color: #404bbf;
 }
 .contact {
   font-style: normal;

@@ -22,7 +22,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -31,7 +31,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
@@ -59,6 +59,12 @@ body {
 .contact-link:hover {
   color: #404bbf;
 }
+.contact-list:focus {
+  color: #404bbf;
+}
+.contact {
+  font-style: normal;
+}
 /* ===/HEADER STYLES=== */
 
 /* ===MAIN STYLES=== */
@@ -75,7 +81,7 @@ body {
   color: #ffffff;
 }
 .page-section-button {
-  background: #4d5ae5;
+    background: #4d5ae5;
 }
 .button-title {
   font-family: "Roboto", sans-serif;
@@ -83,7 +89,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  background: #4d5ae5;
   color: #fff;
+}
+.button-title:hover {
+  background: #404bbf;
+}
+.button-title:focus {
+  background: #404bbf;
 }
 /* ===BENEFITS=== */
 .benefits-title {
@@ -111,9 +124,10 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .team-item {
@@ -141,9 +155,10 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .portfolio-name {
@@ -173,7 +188,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -182,7 +197,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
